@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LineChart">
+        <attr name="defaultXLabelCount" format="integer"/>
+        <attr name="defaultYLabelCount" format="integer"/>
+        <attr name="xLabel" format="reference"/>
+        <attr name="yLabel" format="reference"/>
+        <attr name="xLabelTextSize" format="dimension"/>
+        <attr name="xLabelTextColor" format="color"/>
+        <attr name="xLabelTextPadding" format="dimension"/>
+        <attr name="yLabelTextSize" format="dimension"/>
+        <attr name="yLabelTextColor" format="color"/>
+        <attr name="yLabelTextPadding" format="dimension"/>
+        <attr name="maxYValue" format="float"/>
+        <attr name="showYValueText" format="boolean"/>
+        <attr name="yValueTextSize" format="dimension"/>
+        <attr name="yValueTextColor" format="color"/>
+        <attr name="yValueTextPadding" format="dimension"/>
+        <attr name="yValueTextLocation" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+        <attr name="axisWidth" format="dimension"/>
+        <attr name="axisColor" format="color"/>
+        <attr name="axisPointStyle" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="arc" value="2"/>
+        </attr>
+        <attr name="axisPointRadius" format="dimension"/>
+        <attr name="axisPointArcWidth" format="dimension"/>
+        <attr name="axisExtendLength" format="dimension"/>
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="linePointStyle" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="arc" value="2"/>
+        </attr>
+        <attr name="linePointRadius" format="dimension"/>
+        <attr name="linePointArcWidth" format="dimension"/>
+        <attr name="showScale" format="boolean"/>
+        <attr name="scaleLength" format="dimension"/>
+        <attr name="showGrid" format="boolean"/>
+        <attr name="gridWidth" format="dimension"/>
+        <attr name="gridColor" format="color"/>
+        <attr name="gridExtendLength" format="dimension"/>
+        <attr name="description" format="string"/>
+        <attr name="showDescription" format="boolean"/>
+        <attr name="descriptionTextSize" format="dimension"/>
+        <attr name="descriptionTextColor" format="color"/>
+        <attr name="descriptionTextPadding" format="dimension"/>
+        <attr name="descriptionTextLocation" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="leftPadding" format="dimension"/>
+        <attr name="topPadding" format="dimension"/>
+        <attr name="rightPadding" format="dimension"/>
+        <attr name="bottomPadding" format="dimension"/>
+        <attr name="showDefault" format="boolean"/>
+        <attr name="defaultText" format="string"/>
+        <attr name="defaultTextSize" format="dimension"/>
+        <attr name="defaultTextColor" format="color"/>
+    </declare-styleable>
+</resources>

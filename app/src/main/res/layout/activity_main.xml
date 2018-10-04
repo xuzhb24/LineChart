@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.elestic.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="800dp"
+        android:layout_height="500dp"
+        android:background="@color/colorPrimary"
+        app:showDescription="true"
+        app:description="近期网速"
+        app:axisColor="#34b1eb"
+        app:gridColor="#60ffffff"
+        app:descriptionTextPadding="15dp"
+        app:descriptionTextSize="20sp"
+        app:maxYValue="16"
+        app:axisPointStyle="arc"
+        app:gridWidth="1px"
+        app:yLabel="@array/speed"
+        app:axisExtendLength="50dp"
+        app:gridExtendLength="40dp"/>
+
+</LinearLayout>

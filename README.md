@@ -66,7 +66,7 @@ int defaultYLabelCount;         //Y轴默认的刻度值个数
 ```
 # 使用方法
 首先说明几点
-## 第一
+## 第1点
    X轴和Y轴上的刻度值xLabel和YLabel都是一个CharSequence数组，支持从xml资源文件引入，也可以在代码中设置，比如可以在XML布局中设置LineChart组件的yLabel属性如下：
 ```xml
 app:yLabel="@array/speed"
@@ -82,12 +82,12 @@ app:yLabel="@array/speed"
 ```java
 String[] dates = {"01/24", "02/02", "02/12", "02/25", "03/01"};
 ```
-## 第二
+## 第2点
 当Y轴上的刻度值是数值类型的话，Y轴的最大刻度值，即maxYValue取Y轴最上面，也是值最大的刻度值对应的数值，这里注意设置yLabel时按从小到大排序。
 如果Y轴上的刻度值不是数值类型，而是文本类型，那么要手动设置maxYValue的值，否则Y轴的最大刻度值默认取99999999f，而这就失去意义了。
-## 第三
+## 第3点
 在设置了X轴刻度值，即xLabel属性的情况下，X轴的刻度值个数默认为xLabel的个数，前提是xLabel的个数比defaultXLabelCount大，这里的defaultXLabelCount就是X轴默认的刻度值个数，比如设置defaultXLabelCount为7，而xLabel数组的个数为4，那么X轴的刻度值个数总共有7个，而只会绘制前4个刻度值的文本，即xLabel中4个刻度值的文本内容。
-## 第四
+## 第4点
 共有三种绘制折线图数据的方法：
 ```java
 void drawData(float[] yValue);     //绘制折线图的数据

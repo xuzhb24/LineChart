@@ -88,13 +88,13 @@ String[] dates = {"01/24", "02/02", "02/12", "02/25", "03/01"};
 ## 第三
 在设置了X轴刻度值，即xLabel属性的情况下，X轴的刻度值个数默认为xLabel的个数，前提是xLabel的个数比defaultXLabelCount大，这里的defaultXLabelCount就是X轴默认的刻度值个数，比如设置defaultXLabelCount为7，而xLabel数组的个数为4，那么X轴的刻度值个数总共有7个，而只会绘制前4个刻度值的文本，即xLabel中4个刻度值的文本内容。
 ## 第四
->>共有三种绘制折线图数据的方法：
+共有三种绘制折线图数据的方法：
 ```java
 void drawData(float[] yValue);     //绘制折线图的数据
 void drawData(float[] yValue, String[] xLabel);      //同时绘制折线图数据、X轴刻度值
 void drawData(float[] yValue, String[] xLabel, String[] yLabel);   //同时绘制折线图数据、X轴刻度值、Y轴刻度值
 ```
->>以上图为例，代码中是这么编写的：
+以上图为例，代码中是这么编写的：
 ```java
 float[] yValue = {16, 11.9f, 8.2f, 9, 12};
 String[] dates = {"01/24", "02/02", "02/12", "02/25", "03/01"};

@@ -1,7 +1,7 @@
 # 前言
   实现一个折线图，效果如下：
 
-<img width="469" height="288" src="https://github.com/xuzhb24/LineChart/blob/master/app/src/main/res/mipmap-hdpi/demo.PNG"/>
+<img width="703" height="432" src="https://github.com/xuzhb24/LineChart/blob/master/app/src/main/res/mipmap-hdpi/demo.PNG"/>
 
 # 属性说明
 ```java
